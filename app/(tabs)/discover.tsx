@@ -128,11 +128,11 @@ export const HomeDisplay = () => {
   };
 
   const handleMoviePress = (id: number) => {
-    router.push(`../movies/[moviedetails]${id}`);
+    router.push(`../movies/[id]${id}`);
   };
   
   const handleShowPress = (id: number) => {
-    router.push(`../[tvdetails]${id}`);
+    router.push(`../shows/[id]${id}`);
     console.log(id);
   };
 

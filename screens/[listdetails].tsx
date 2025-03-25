@@ -9,8 +9,8 @@ import {
   Alert, // Add this
 } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { getListItemsWithImages } from "../../services/tmdb-trakt";
-import { addToTraktList, removeFromTraktList } from "../../services/traktapi";
+import { getListItemsWithImages } from "../services/tmdb-trakt";
+import { addToTraktList, removeFromTraktList } from "../services/traktapi";
 import * as SecureStore from "expo-secure-store";
 import { MaterialCommunityIcons as Icon } from "@expo/vector-icons";
 import { FlashList } from "@shopify/flash-list";
