@@ -8,11 +8,11 @@ import {
   Pressable,
 } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { fetchItemDetails } from "../services/tmdb-trakt";
+import { fetchItemDetails } from "../../services/tmdb-trakt";
 import Constants from "expo-constants";
-import { checkItemInLists } from "../services/traktapi";
+import { checkItemInLists } from "../../services/traktapi";
 import { MaterialCommunityIcons as Icon } from "@expo/vector-icons";
-import MyLists from "../../../components/listModal";
+import MyLists from "../../components/listModal";
 import axios from "axios";
 import { Picker } from "@react-native-picker/picker";
 import { FlashList } from "@shopify/flash-list";
